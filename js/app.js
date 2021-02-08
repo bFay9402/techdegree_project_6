@@ -1,7 +1,12 @@
 qwerty = document.getElementById('qwerty');
 startBtn = document.querySelector('.btn__reset');
 phrase = document.getElementById('phrase');
-phrases = ['Live and learn', 'Do or do not there is no try', '', '', ''];
+phrases = [
+  'live and learn', 
+  'do or do not there is no try', 
+  'patience is a virtue', 
+  'be not afraid of growing slowly be afraid only of standing still', 
+  'once we accept our limits we go beyond them'];
 let missed = 0;
 const phraseArray = getRandomPhraseAsArray(phrases);
 
